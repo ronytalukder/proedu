@@ -371,9 +371,64 @@ color: #1D1D1D;
 /*=========================== */
 
 /*=========================== 
-       Questions end
+       companie start
+/*=========================== */
+#companie{
+    margin-bottom: 130px;
+}
+#companie h2{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-bottom: 130px;
+}
+
+#companie .main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*=========================== 
+       companie end
 /*=========================== */
 
 /*=========================== 
-       Questions end
+       footer start
+/*=========================== */
+#footer{
+    padding: 130px 0;
+    background: #161616;
+    text-align: center;
+}
+#footer h2{
+    color: #E8E8E8 !important;
+}
+#footer p{
+    color: #E8E8E8 !important;
+}
+#footer p a{
+    color: #E8E8E8 !important;
+}
+
+#footer .address{
+    width: 321px;
+    margin: 0 auto;
+}
+#footer a i{
+    font-size: 20px;
+    color: #ffff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #242424 ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 3px;
+}
+/*=========================== 
+       footer end
 /*=========================== */
