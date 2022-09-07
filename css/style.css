@@ -215,10 +215,138 @@ margin: 0 auto;
 /*=========================== 
         elearning start
 /*=========================== */
-      
-#elearning{
 
+#elearning .container{
+background-color: #F4FAFD;
+}
+
+#elearning .text p span{
+    display: block;
+    margin-top: 40px;
+}
+
+#elearning .count{
+    display: flex;
+    margin: 20px 0;
+}
+#elearning .number{
+    margin-right: 50px;
+}
+
+#elearning .count h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #1D1D1D;
+}
+#elearning .count p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #777777;
 }
 /*=========================== 
         elearning end
+/*=========================== */
+
+/*=========================== 
+        ready to join start
+/*=========================== */
+#ready_join{
+    padding: 130px 0;
+}
+#ready_join .container {
+padding: 80px 100px;
+background-color:#289BDE ;
+}     
+
+#ready_join .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ready_join .main h2{
+    font-size: 45px;
+    color: #ffff;
+    font-weight: 600;
+}
+#ready_join .main p{
+    color: #ffff;
+    width:528px ;
+}
+
+#ready_join .button_style{
+    background-color: #ffff;
+    color: #289BDE;
+}
+
+#ready_join .right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#ready_join .modal-content{
+    background-color: #289BDE;
+    color: #ffff;
+}
+#ready_join .modal-body{
+    padding: 50px;
+}
+#ready_join .modal-body h2{
+    text-align: center;
+}
+/*=========================== 
+        ready to join end
+/*=========================== */
+
+/*=========================== 
+       Successfull Students start
+/*=========================== */
+
+#succesfull_student{
+    margin-bottom: 130px;
+}
+
+#succesfull_student .studentittle{
+    width: 549px;
+}
+#succesfull_student .student img{
+width: 100%;
+}
+#succesfull_student .student{
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 50px;
+}
+#succesfull_student .student .detils{
+    padding:20px ;
+}
+#succesfull_student .student .detils h5{
+font-size: 20px;
+font-weight: 600;
+color: #1D1D1D;
+}
+
+#succesfull_student .student .detils p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 30px;
+}
+#succesfull_student .all_students {
+    text-align: center;
+    margin-top: 50px;
+}
+/*=========================== 
+       Successfull Students end
+/*=========================== */
+
+/*=========================== 
+       Successfull Students end
+/*=========================== */
+/*=========================== 
+       Successfull Students end
 /*=========================== */
