@@ -345,8 +345,35 @@ color: #1D1D1D;
 /*=========================== */
 
 /*=========================== 
-       Successfull Students end
+       Questions start
 /*=========================== */
+#question{
+    margin-bottom: 130px;
+}
+#question .question_title{
+    text-align: center;
+    padding: 0 100px;
+}
+
+
+#question .accordion-item{
+    margin-bottom: 25px;
+}
+
+#question .accordion-item h2{
+    border: none;
+  
+}
+
+
 /*=========================== 
-       Successfull Students end
+       Questions end
+/*=========================== */
+
+/*=========================== 
+       Questions end
+/*=========================== */
+
+/*=========================== 
+       Questions end
 /*=========================== */
