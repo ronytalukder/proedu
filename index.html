@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body>
     <!--==================================
@@ -31,8 +32,17 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+
         >
-          <span class="navbar-toggler-icon"></span>
+        <i class="fa fa-bars" aria-hidden="true"></i>
+
+        <button class="register only_sm_devise" 
+          class="button_style"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Register</button>
+
+        
+
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
@@ -55,7 +65,10 @@
               <a class="nav-link" href="#">Register</a>
             </li>
           </ul>
-          <button class="register">Register</button>
+          <button class="register" 
+          class="button_style"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Register</button>
         </div>
       </div>
     </nav>
@@ -273,12 +286,12 @@
     <section id="elearning">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <div class="img">
               <img src="images/working.png" alt="" />
             </div>
           </div>
-          <div class="col-lg-6 d-flex align-items-lg-center">
+          <div class="col-lg-6 col-md-6 d-flex align-items-lg-center">
             <div class="text">
               <h2 class="tittle">Explore The elearning Institute</h2>
               <p class="pera">
@@ -300,7 +313,7 @@
                   <p>Online Course</p>
                 </div>
                 <div class="number">
-                  <h2>600+k+</h2>
+                  <h2>600k+</h2>
                   <p>Expert member</p>
                 </div>
                 <div class="number">
@@ -309,7 +322,7 @@
                 </div>
               </div>
 
-              <a href="#" class="button_style">Read More</a>
+              <a href="#"  class="button_style">Read More</a>
             </div>
           </div>
         </div>
@@ -389,7 +402,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="student">
               <img src="images/student/student-1.png" alt="" />
               <div class="detils">
@@ -398,7 +411,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="student">
               <img src="images/student/student-2.png" alt="" />
               <div class="detils">
@@ -407,7 +420,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="student">
               <img src="images/student/student-3.png" alt="" />
               <div class="detils">
@@ -416,7 +429,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="student">
               <img src="images/student/student-4.png" alt="" />
               <div class="detils">

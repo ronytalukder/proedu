@@ -49,6 +49,10 @@ body{
     background-color: #289BDE;
 }
 
+.only_sm_devise{
+    display: none;
+}
+
 
 /* common css end */
 
